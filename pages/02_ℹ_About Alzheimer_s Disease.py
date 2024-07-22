@@ -21,7 +21,7 @@ st.markdown('- <p class="big-font">The current statistical data and reports repo
 st.markdown('- <p class="big-font">Alzheimer’s disease is named after Dr. Alois Alzheimer. In 1906, Dr. Alzheimer noticed changes in the brain tissue of a woman who had died of an unusual mental illness. Her symptoms included memory loss, language problems, and unpredictable behavior. After she died, he examined her brain and found many abnormal clumps (now called amyloid plaques) and tangled bundles of fibers (now called neurofibrillary, or tau, tangles).</p>', unsafe_allow_html=True)         
 
 from PIL import Image
-i2 = Image.open(r'ADclassification/ad.jpg') 
+i2 = Image.open(r'ad.jpg') 
 st.image(i2, output_format = 'auto') 
          
 st.markdown('<p class="big-font">These plaques and tangles in the brain are still considered some of the main features of Alzheimer’s disease. Another feature is the loss of connections between neurons in the brain. Neurons transmit messages between different parts of the brain, and from the brain to muscles and organs in the body.</p>', unsafe_allow_html=True)         
