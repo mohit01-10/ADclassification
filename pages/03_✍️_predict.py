@@ -29,7 +29,7 @@ if st.button('Predict/Classify'):
     df= pd.DataFrame(data,index=[0])
 
     #load the model
-    model= pickle.load(open('/pages/clf9','rb'))
+    model= pickle.load(open('pages/clf9','rb'))
         
     predicted= model.predict(df)
         
