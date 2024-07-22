@@ -14,7 +14,7 @@ st.markdown('- <p class="big-font">Alzheimer’s is a type of dementia that caus
 st.markdown('- <p class="big-font">Alzheimer’s is not a normal part of aging. The greatest known risk factor is increasing age, and the majority of people with Alzheimer’s are 65 and older. But Alzheimer’s is not just a disease of old age. Approximately 200,000 Americans under the age of 65 have younger-onset Alzheimer’s disease (also known as early-onset Alzheimer’s).</p>', unsafe_allow_html=True)
 
 from PIL import Image
-i3 = Image.open(r'/Users/mohit/Desktop/ADclassification/i3.webp') 
+i3 = Image.open(r'i3.webp') 
 st.image(i3, output_format = 'auto') 
 
 st.markdown('- <p class="big-font">Alzheimer’s  is the sixth leading cause of death in the United States. Those with Alzheimer’s live an average of eight years after their symptoms become noticeable to others, but survival can range from four to 20 years, depending on age and other health conditions.</p>', unsafe_allow_html=True)         
@@ -24,7 +24,7 @@ st.markdown('- <p class="big-font">Alzheimer’s has no current cure, but treatm
 st.title("Stages of Alzheimer's disease")
 
 from PIL import Image
-stages = Image.open(r'/Users/mohit/Desktop/ADclassification/stagesalz.png') 
+stages = Image.open(r'stagesalz.png') 
 st.image(stages, output_format = 'auto') 
 
 st.header("Mild Alzheimer’s disease")
