@@ -29,7 +29,7 @@ if st.button('Predict/Classify'):
     df= pd.DataFrame(data,index=[0])
 
     #load the model
-    model= pickle.load(open('/Users/mohit/Desktop/ADclassification app/pages/clf9','rb'))
+    model= pickle.load(open('/pages/clf9','rb'))
         
     predicted= model.predict(df)
         
@@ -41,6 +41,6 @@ if st.button('Predict/Classify'):
         st.success('This person falls into the Non-Demented category.')
 
 from PIL import Image
-i4 = Image.open(r'/Users/mohit/Desktop/ADclassification/d3.jpg') 
+i4 = Image.open(r'd3.jpg') 
 st.image(i4, output_format = 'auto') 
 
