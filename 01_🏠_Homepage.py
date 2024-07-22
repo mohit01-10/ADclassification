@@ -20,7 +20,7 @@ st.sidebar.success("Select a page above.")
 st.markdown('''<p class="big-font">This is a Machine Learning based application which can be used to precisely classify a person that might belong to Demented, Non-Demented and Converted category. Our team has trained a model called DoctorGPT which allows users to find out which category they belong. The model takes your some clinical health data as an input and try to precisely predicit about possiblity of having Alzheimer's Disease.</p>''', unsafe_allow_html=True)
 
 from PIL import Image
-i1 = Image.open(r"/Users/mohit/Desktop/ADclassification/i1.jpg") 
+i1 = Image.open(r"i1.jpg") 
 st.image(i1, output_format = 'auto') 
 
 st.header('How it works?')
@@ -36,7 +36,7 @@ st.markdown('''<p class="big-font">DoctorGPT is designed and trained using vario
              8. ASF --> Atlas Scaling Factor\n
              9. Gender --> M/F\n <p class='big-font'>The Algorithm works upon the data provided and will result in a message stating the precise category as the output.</p>''', unsafe_allow_html=True)         
 
-i2 = Image.open(r"/Users/mohit/Desktop/ADclassification/ad1.jpg") 
+i2 = Image.open(r"ad1.jpg") 
 st.image(i2, output_format = 'auto') 
 
 
